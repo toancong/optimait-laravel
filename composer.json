@@ -1,0 +1,23 @@
+{
+  "name": "optimait/laravel",
+  "description": "Laravel specific services",
+  "authors": [
+    {
+      "name": "Optima It Solutions",
+      "email": "dev@optimaitsolutions.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "laravel/framework": "5.*",
+    "intervention/image": "2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Optimait\\Laravel\\": "src/"
+    }
+  }
+}
